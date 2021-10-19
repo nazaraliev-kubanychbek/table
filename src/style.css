@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.table{
+    width: 600px;
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+.active{
+    background-color: red;
+}
+th{
+    padding: 0 10px;
+    border: 1px solid blue;
+    height: 50px
+}
+td{
+    padding: 0 10px;
+    border: 1px solid blue;
+    height: 50px;
+    text-align: center;
+}
+.table__foot{
+    text-align: left;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
